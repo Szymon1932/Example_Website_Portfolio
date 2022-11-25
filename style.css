@@ -1,0 +1,226 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #444;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav2 {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .nav2 .nav2btn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .nav2:hover .nav2btn {
+    background-color: #bf6900;
+  }
+  
+  .nav2-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #bf6900;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .nav2-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav2-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+    .nav2:hover .nav2-content {
+    display: block;
+  }
+
+  section{
+    align-items: center;
+    text-align: center;
+    height:60vh
+  }
+  
+  /*SECTION LANGUAGES*/
+  #table-languages{
+    width:400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #table-languages td img{
+    width: 100px;
+  }
+  /*welcome*/
+   #welcome
+  {
+    display: block;
+    background-image: url("https://wallpaperaccess.com/full/170249.jpg");
+    height: 100vh; 
+    top: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+  }
+  .div-inside{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -200px;
+    
+  }
+  .div-inside p{
+    color: white;
+    font-size: 2rem;
+  }
+ 
+  #table-languages{
+    border: 2px solid black;
+  }
+  #table-languages td{
+    border: 1px dashed black;
+  }
+  /*contact*/
+  #contact{
+    background-color: #657ED4;
+  }
+  .container{
+    width:40vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.4);
+    padding: 20px;
+  }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+     }
+  
+  input[type=submit] {
+    background-color: #657ED4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ #language-section{
+    background-color: #FBFBFF;
+    color: black;
+ }
+ #language-section>div{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+ #language-section ul{
+    list-style-type: none;
+ }
+ @media only screen and (max-width: 1200px) {
+    .div-inside{
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        border-radius: 30px;
+        top: 50%;
+        left: 50%;
+        margin: -150px 0 0 -300px;
+        
+      }
+      .div-inside p{
+        color: white;
+        font-size: 3rem;
+      }    
+ }
+ @media only screen and (max-width: 900px) {
+    .div-inside{
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        border-radius: 30px;
+        top: 50%;
+        left: 50%;
+        margin: -150px 0 0 -300px;
+        
+      }
+      .div-inside p{
+        color: white;
+        font-size: 2.5rem;
+      }
+    }
+    @media only screen and (max-width: 700px) {
+    
+        .div-inside{
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 400px;
+            height: 200px;
+            position: absolute;
+            border-radius: 30px;
+            top: 50%;
+            left: 50%;
+            margin: -100px 0 0 -200px;
+            
+          }
+          .div-inside p{
+            color: white;
+            font-size: 2rem;
+          }
+          .container{
+            width:90%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            background-color: rgba(255,255,255,0.4);
+            padding: 20px;
+          }
+        }
